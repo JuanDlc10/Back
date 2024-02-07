@@ -5,7 +5,7 @@ $dotenv = Dotenv\Dotenv::createImmutable('./');
 
 $dotenv -> load();
 
-
+/* 
 $host = $_ENV['HOST'];
 $port = $_ENV['PORT'];
 $database = $_ENV['DB'];
@@ -17,7 +17,7 @@ try {
     echo "Nos conectamos a la nasa :)";
 } catch (PDOException $e) {
     echo "No nos pudimos conectar a la nasa :(";
-}
+} */
 
 
 ?>
